@@ -32,4 +32,4 @@ jobs:
           push: true
           tags: |
             martinsmf/rotten-potatoes:latest
-            martinsmf/rotten-potatoes:${{ github.run.number }}
+            martinsmf/rotten-potatoes:${{ github.run_number }}
